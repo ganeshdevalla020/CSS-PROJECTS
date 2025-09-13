@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>3.class selector</title>
+    <style>
+        .classA {
+            text-align: center;
+        }
+
+        .classb
+        {
+            color: white; 
+        }
+        .clr-yellow 
+        {
+            background-color: yellow;
+        }
+
+        #heading1 {
+            background-color: lightgreen;
+            
+        }
+
+        #heading2 {
+            background-color: lightblue;
+           
+        }
+
+        #p1 {
+            color: violet;
+        }
+
+        #p2 {
+            color: red;
+        }
+
+        #p3 {
+            color: green;
+        }
+
+        #p4 {
+            color: yellowgreen;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="heading1" class="classA classb">
+        content1 in heading1
+    </h1>
+    <p id="p1" class="classA">
+        content1 in paragraph1
+    </p>
+    <p id="p2" class="clr-yellow">
+        content2 in paragraph2
+    </p>
+    <p id="p3" class="clr-yellow">
+        content3 in paragraph3
+    </p>
+    <p id="p4" class="classA clr-yellow">
+        content4 in paragraph4
+    </p>
+    <h1 id="heading2" class="classA classb">
+        content2 in heading1
+    </h1>
+
+</body>
+
+</html>
